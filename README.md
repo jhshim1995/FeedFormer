@@ -17,14 +17,14 @@ pip install torchvision==0.8.2
 pip install timm==0.3.2
 pip install mmcv-full==1.2.7
 pip install opencv-python==4.5.1.48
-cd SegFormer && pip install -e . --user
+cd FeedFormer-master && pip install -e . --user
 ```
 
 ## Evaluation
 
 Download trained weights from [trained weights](https://drive.google.com/drive/folders/1GAku0G0iR9DsBxCbfENWMJ27c5lYUeQA?usp=sharing).
 
-Example: evaluate ```SegFormer-B0``` on ```ADE20K```:
+Example: evaluate ```FeedFormer-B0``` on ```ADE20K```:
 
 ```
 # Single-gpu testing
@@ -41,7 +41,7 @@ tools/dist_test.sh local_configs/feedformer/B0/feedformer.b0.512x512.ade.160k.py
 
 Download [weights](https://drive.google.com/drive/folders/1zkUWCxhvsFU6Gy2aAeNBqHlymLUrvXQa?usp=sharing) pretrained on ImageNet-1K, and put them in a folder ```pretrained/```.
 
-Example: train ```SegFormer-B0``` on ```ADE20K```:
+Example: train ```FeedFormer-B0``` on ```ADE20K```:
 
 ```
 # Single-gpu training
@@ -59,7 +59,7 @@ Here is a demo script to test a single image. More details refer to [MMSegmentat
 python demo/image_demo.py ${IMAGE_FILE} ${CONFIG_FILE} ${CHECKPOINT_FILE} [--device ${DEVICE_NAME}] [--palette-thr ${PALETTE}]
 ```
 
-Example: visualize ```SegFormer-B0``` on ```CityScapes```: 
+Example: visualize ```FeedFormer-B0``` on ```CityScapes```: 
 
 ```shell
 python demo/image_demo.py demo/demo.png local_configs/feedformer/B0/feedformer.b0.512x512.ade.160k.py \
