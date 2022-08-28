@@ -24,6 +24,8 @@ cd FeedFormer-master && pip install -e . --user
 
 Download trained weights from [trained weights](https://drive.google.com/drive/folders/1GAku0G0iR9DsBxCbfENWMJ27c5lYUeQA?usp=sharing).
 
+All our models were trained on 4 RTX3090 GPUs
+
 Example: evaluate ```FeedFormer-B0``` on ```ADE20K```:
 
 ```
