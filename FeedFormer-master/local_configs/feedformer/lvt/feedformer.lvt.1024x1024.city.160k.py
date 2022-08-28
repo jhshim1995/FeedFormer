@@ -40,7 +40,7 @@ model = dict(
     test_cfg=dict(mode='slide', crop_size=(1024,1024), stride=(768,768)))
 
 # data
-data = dict(samples_per_gpu=1)
+data = dict(samples_per_gpu=2)
 evaluation = dict(interval=4000, metric='mIoU')
 
 # optimizer
