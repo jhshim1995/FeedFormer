@@ -41,7 +41,7 @@ tools/dist_test.sh local_configs/feedformer/B0/feedformer.b0.512x512.ade.160k.py
 
 ## Training
 
-Download [weights](https://drive.google.com/drive/folders/1AtIB24b9oW5xankS1TtmKktNZwFM47nQ?usp=sharing) pretrained on ImageNet-1K, and put them in a folder ```pretrained/```.
+Download ImageNet-1K pretrained weights from [pretrained weights](https://drive.google.com/drive/folders/1AtIB24b9oW5xankS1TtmKktNZwFM47nQ?usp=sharing) and put them in a folder ```pretrained/```.
 
 Example: train ```FeedFormer-B0``` on ```ADE20K```:
 
