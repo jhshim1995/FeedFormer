@@ -10,6 +10,7 @@
 </p>
 
 FeedFormer: Revisiting Transformer Decoder for Efficient Semantic Segmentation
+We propose  the Feature Enhancing Decoder Transformer (FeedFormer), that enhances structual information using the transformer decoder. Our proposed model take advantage from both the simple ALL-MLP decoder, and the conventional transformer decoder structures in segmentation to design an efficient transformer decoder for semantic segmentation. Whereas conventional transformer decoders for segmentation, such as MaskFormer and Mask2Former, use additional learnable object query for the decoder, our model directly deploy the high-level features as queries and the lowest-level feature as the key and value. This enhances the high-evel features by collecting the structural information from the lowest-level feature. Additionally, we use a simple reformation trick of pushin the encoder blocks to take the place of th existing self-attention module of the decoder to improve efficiency. 
 
 We use [MMSegmentation v0.13.0](https://github.com/open-mmlab/mmsegmentation/tree/v0.13.0) as the codebase.
 
