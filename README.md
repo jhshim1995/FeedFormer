@@ -14,6 +14,7 @@ We propose  the Feature Enhancing Decoder Transformer (FeedFormer), that enhance
 ## Installation
 
 We use [MMSegmentation v0.13.0](https://github.com/open-mmlab/mmsegmentation/tree/v0.13.0) as the codebase.
+
 For install and data preparation, please refer to the guidelines in [MMSegmentation v0.13.0](https://github.com/open-mmlab/mmsegmentation/tree/v0.13.0).
 
 Environment Settings:
