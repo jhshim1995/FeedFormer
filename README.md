@@ -1,6 +1,14 @@
 
 # FeedFormer: Revisiting Transformer Decoder for Efficient Semantic Segmentation
 
+<!-- ![image](FeedFormer-master/main_fig.png) -->
+<div align="center">
+  <img src="./FeedFormer-master/main_fig.png" height="400">
+</div>
+<p align="center">
+  Figure 1: Main concept of FeedFormer.
+</p>
+
 FeedFormer: Revisiting Transformer Decoder for Efficient Semantic Segmentation
 
 We use [MMSegmentation v0.13.0](https://github.com/open-mmlab/mmsegmentation/tree/v0.13.0) as the codebase.
